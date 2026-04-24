@@ -53,15 +53,10 @@ Protection against interception
 Secure multi-process communication
 
 ▶️ Getting Started
-1. Clone the repository
-git clone https://github.com/your-username/distributed-job-queue.git
-cd distributed-job-queue
-2. Generate SSL Certificates
-openssl req -new -x509 -days 365 -nodes -out cert.pem -keyout key.pem
 
-Place them inside the certs/ directory.
+1. Generate SSL Certificates
 
-3. Run the Components (in separate terminals)
+2. Run the Components (in separate terminals)
 Start Dispatcher
 python dispatcher.py
 Start Worker(s)
